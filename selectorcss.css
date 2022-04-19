@@ -1,0 +1,30 @@
+/* grouping selector*/
+
+h1,
+h2,
+h3 {
+    background-color: aqua;
+    font-size: 200%;
+}
+
+body {
+    background-image: url('b.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* class selector*/
+
+.inline {
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+#google {
+    background-color: bisque;
+    font-size: 500%;
+    height: 5ch;
+    width: 10ch;
+}
