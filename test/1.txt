@@ -1,0 +1,210 @@
+1.
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+2.attributes are used to controll the behaviour of an element or controll the element.
+syntax:<a href="path"></a>
+
+3.<img src="path of  image">
+
+4.hyperlink tag i,e <a></a> is used to link the destination page using
+href we can specify the url . 
+syntax:<a href="path">text link</a>
+
+example:<a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=An%20HTML%20table%20consists%20of,%2C%20and%20elements.">text link</a>
+
+5.syntax:
+<table>
+	<tr>
+		<th></th>
+	</tr>
+		<tr>
+			<td></td>
+		</tr>
+</table>
+
+example:
+<table>
+	<tr>
+		<th>ID</th>
+	</tr>
+		<tr>
+			<td>1</td>
+		</tr>
+</table>
+
+6.<html>
+
+<head>
+    <title>
+        form
+    </title>
+    <link rel="stylesheet" href="formtask.css">
+</head>
+
+<body>
+    <form>
+        <ul type="none">
+            <li><label><h1>REGISTRATION FORM</h1></label></li>
+            <li><label>Enetr Full Name:</label>
+                <input type="text" style="text-align: center;">
+            </li>
+            <li><label>Enter Email Id:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" style="text-align: center;">
+
+            </li>
+            <li><label>Enter Password:</label>&nbsp;
+                <input type="text" style="text-align: center;">
+
+            </li>
+            <li><label for="">DOB:</label><br>
+                <input type="date">
+            </li>
+            <li><label>Select Gender</label><br><br>
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female <br><br>
+
+            </li>
+            <li>
+                <input type="button" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <input type="button" value="reset">
+
+            </li>
+        </ul>
+</body>
+
+</html>
+
+form {
+    margin-left: 450px;
+    margin-top: 220px;
+    height: 400px;
+    width: 600px;
+    padding: 1em;
+    border: 5px solid rgb(35, 6, 6);
+    background-color: rgb(229, 229, 54);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("wall.jpg");
+}
+
+li {
+    padding: 5px 10px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 5px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+
+
+
+1.types:
+	1.Inline css
+	syntax:
+			<html>
+
+				<head>
+    						<title>
+        							CSS
+    						</title>
+    				</head>
+			<body>
+				<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+			</html>
+
+	2.Internal css
+	Syntax:
+			<html>
+
+				<head>
+    						<title>
+        							CSS
+    						</title>
+						<style>
+       						selector{
+								property:value;
+							}
+    						</style>
+    				</head>
+			<body>
+				<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+			</html>
+	3.External css
+	Syntax:
+			<html>
+
+				<head>
+    						<title>
+        							CSS
+    						</title>
+						<link href="path of the external style sheets">
+						
+    				</head>
+			<body>
+				<h4 style="color: blue; font-size: x-large;">Sponsered by </h4>
+			</html>
+
+2.selector css will specify the design for the specific element in the html form
+<style>
+    selector{
+		property:value;
+	}
+</style>
+
+3.syntax:
+	<div></div>
+div{
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+
+example:
+<html>
+
+<head>
+    <title>
+        css box model
+    </title>
+    <link rel="stylesheet" href="box.css">
+</head>
+
+<body>
+    <div class="box">
+        CSS box MODEL
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>
+
+
+css file...
+body {
+    margin: 0px;
+}
+
+div {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+}
+
